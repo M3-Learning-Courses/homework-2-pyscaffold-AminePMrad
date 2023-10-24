@@ -34,10 +34,8 @@ tic_tac_toe
 ===========
 
 
-    Add a short description here!
-
-
-A longer description of your project goes here...
+This repository presents you with a downloadable Tic_Tac_Toe 2 player game
+This project is still under development. Current testing covers 87% of code. Manual testing and documentation has been done.
 
 
 .. _pyscaffold-notes:
