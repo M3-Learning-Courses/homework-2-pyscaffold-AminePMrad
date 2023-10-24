@@ -1,11 +1,30 @@
 # Define a function to print the Tic-Tac-Toe board
 def print_board(board):
+    """
+    Prints the Tic-Tac-Toe board.
+
+    Args:
+        board (list of list of str): the 3x3 Tic-Tac-Toe board represented as a list of lists
+
+    Returns:
+    None
+    """
     for row in board:
-        print(" | ".join(row))
+        print(" | ".join(row))                                                                                 
         print("-" * 9)
 
 # Define a function to check if a player has won
 def check_winner(board, player):
+    """
+    Checks if a player has won.
+
+    Args:
+        board (list of list of str): The 3x3 Tic-Tac-Toe board represented as a list of lists.
+        player (str): The player's symbol ('X' or 'O') to check for a win.
+
+    Returns:
+        bool: True if the player has won, False otherwise.
+    """
     # Check rows and columns for a win
     for i in range(3):
         if all(board[i][j] == player for j in range(3)) or all(board[j][i] == player for j in range(3)):
@@ -17,10 +36,30 @@ def check_winner(board, player):
 
 # Define a function to check if the game is a draw
 def is_draw(board):
+    """
+    Checks if the game is a draw.
+
+    Args:
+        board (list of list of str): The 3x3 Tic-Tac-Toe board represented as a list of lists.
+
+    Returns:
+        bool: True if the game is a draw, False otherwise.
+    """
     return all(board[i][j] != ' ' for i in range(3) for j in range(3))
 
 # Define the main game loop
 def main():
+    """
+    Runs the main game loop for Tic-Tac-Toe.
+
+    This function initializes the game board, takes player inputs, and checks for a win or draw.
+
+    Args:
+        None
+
+    Returns:
+        None
+    """
     # Initialize the empty Tic-Tac-Toe board
     board = [[" " for _ in range(3)] for _ in range(3)]
     current_player = "X"
