@@ -34,8 +34,11 @@ tic_tac_toe
 ===========
 
 
-This repository presents you with a downloadable Tic_Tac_Toe 2 player game
-This project is still under development. Current testing covers 87% of code. Manual testing and documentation has been done.
+This repository presents you with a downloadable Tic_Tac_Toe 2 player game.
+
+
+This project is still under development. Current testing covers 87% of code. Manual testing and documentation has been done. 
+Tic_Tac_Toe code is under src folder and to access the sphinx html webpage documentation, go to docs, _build, and run the readme.html file.
 
 
 .. _pyscaffold-notes:
