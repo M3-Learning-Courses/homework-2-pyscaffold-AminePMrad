@@ -2,9 +2,9 @@
 Changelog
 =========
 
-Version 0.1
+Version 1.0
 ===========
 
-- Feature A added
-- FIX: nasty bug #1729 fixed
-- add your changes here!
+- Tic_Tac_Toe game created
+- Tests ran - 87% coverage
+- Documentation completed
